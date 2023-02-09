@@ -1,0 +1,119 @@
+body {
+	width: 940px;
+	background-color:white;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0.2em 0.25em;
+	margin-left:auto;
+    margin-right: auto;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+p {
+	text-align: left;
+	
+	left: 500px;
+	top: 199px;
+	
+}
+
+.titulo {
+	color: #3D3D3D;
+	background-color:#5da05d;
+	padding: 80px;
+	border-bottom-style:solid;
+	border-bottom: 5px  black;
+}
+
+.subtitulo {
+	border-bottom: 6px  black;
+	border-bottom-style:groove;
+	
+}
+
+img {
+	display:block;
+	margin:0;
+	margin-right: auto;
+  }
+
+  figure {
+	padding: 0.0.5px;
+	margin-left:auto;
+	margin-right:auto;
+  }
+
+.figure-1 {
+	position: absolute;
+	width: 500px;
+	height: 445px;
+	left: 850px;
+	top: 199px;
+	
+	
+	border-radius: 108px;
+   
+}
+
+.figure-2 {
+    max-height: 275px;
+    max-width: 275px;
+    float: right;
+}
+
+  figure figcaption {
+	color: #D3D3D3;
+    text-align: center;
+	background-color: #F5F5F5;
+	padding-top: 10px;
+}
+
+.container {
+	width: 94%;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;	
+}
+
+.cabecalhoPrincipal {
+	background-color: #5da05d;
+	padding: 0.05px 0;
+}
+
+.cabecalhoPrincipal-logo {
+	padding-bottom: 30px;
+	background-color: #5da05d;
+	
+}
+.cabecalho_logo_SUB{
+	background-color: #a0655d;
+	padding: 0.05px 0;
+}
+
+.cabecalhoPrincipal-titulo a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+.cabecalhoPrincipal-nav-link {
+	padding: 15px;
+	margin: 15px;
+	margin-bottom: 10px;
+	color: white;
+	background-color: rgb(33, 30, 231);
+	text-decoration:none;
+	transition: .5s;
+	display: block;
+	border-radius: 4em;
+	border-bottom: 1px #9799A6;
+}
+
+footer {
+	background-color: #e4dcf5;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
