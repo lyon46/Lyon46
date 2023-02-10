@@ -4,25 +4,33 @@
     display: flex;
     align-items: center;
     justify-content:center;
-    padding: 7em;
-
-    
+    padding: 2em;
+    flex-wrap: wrap;
 }
 
 .botao {
     margin-left: 1.42em;
     border-radius: 6px;
-    background-color: rgb(255, 0, 85);
+    
     text-transform: uppercase;
-    color:white;
+    color:rgb(0, 0, 0);
     margin-right: 1em;
     padding: 1em 50px;
+    float:right;
+    position: absolute;
+width: 200px;
+height: 100px;
+left: 800px;
+top: 335px;
+text-align: center;
+background: #8f3ef9;
+border-radius: 50px;
     
 }
 
 .botao:hover{
     transition: 1s;
-    background: rgb(51, 153, 93);
+    background: rebeccapurple;
 }
 
 .produtos_chamada {
@@ -36,32 +44,37 @@
 }
 
 .produtos_item {
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 8px;
-    background-color: rgb(1, 8, 14);
-    width: 100px;
+    border: 0.5px solid whitesmoke;
+    border-radius: 0.5px;
+    background-color:#F9C73E;
+    width: 200px;
     height: 100px;
-    color:white;
-    
+    display: flex;
+    text-align:right;
+    left: 700px;
+top: 10px;
+border-radius: 10px
+ font-size: 10px;
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+
+
 }
 
 .produtos_lista {
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows:1fr 1fr;
     grid-template-areas:
-    gap: 10px;
-    padding: 1.0em;
-
-    width: 900px;
-    height: 100px;
-    left: 100px;
-    right: 100%;
+        " destaque . ."
+        " destaque . .";
+    gap:20px;
+    padding: 1em;
+    
+    
 }
-
-    
-    
-    
 
 .produto-destaque {
     grid-area: destaque;
@@ -71,4 +84,3 @@
 .chamada_titulo {
     font-size: 1.5em;
     padding-bottom: 0.5em;
-}

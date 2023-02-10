@@ -1,64 +1,94 @@
 body {
 	width: 940px;
-	background-color:white;
+	background-color: #F5F5F5;
 	font-family: Arial, Helvetica, sans-serif;
 	padding: 0.2em 0.25em;
 	margin-left:auto;
     margin-right: auto;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.5;
 }
 
-p {
-	text-align: left;
-	
-	left: 500px;
-	top: 199px;
-	
+.sobre {
+
+	width: 500px;
+	height: 150px;
+	left: 0px;
+	top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+color: #000000;
+
 }
 
 .titulo {
 	color: #3D3D3D;
-	background-color:#5da05d;
-	padding: 80px;
+	padding: 0px;
 	border-bottom-style:solid;
 	border-bottom: 5px  black;
+	Width:509px;
+	Height: 118px;
+	top: 295px;
+	left: 67px;
+	font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 155px;
+display: flex;
+align-items: center;
+
+
 }
 
 .subtitulo {
 	border-bottom: 6px  black;
-	border-bottom-style:groove;
-	
+	border-bottom-style:solid;
+font-family: 'Inter';
+font-style:italic;
+font-weight: 100;
+font-size: 40px;
+line-height: 61px;
+padding: 0.5px;
 }
+.descricao{
+	border-bottom-style:solid;
+	border-bottom: 6px  black;
+}	
+	
+
 
 img {
-	display:block;
-	margin:0;
+	display: block;
+	margin-left: auto;
 	margin-right: auto;
   }
 
   figure {
-	padding: 0.0.5px;
-	margin-left:auto;
-	margin-right:auto;
+	padding: 15px;
+	margin-left: 30px;
   }
+  
 
 .figure-1 {
 	position: absolute;
-	width: 500px;
-	height: 445px;
-	left: 850px;
-	top: 199px;
-	
-	
-	border-radius: 108px;
-   
-}
+width: 500px;
+height: 445px;
+left: 680px;
+top: 100px;
 
+}
+#h{
+	border-bottom-style:solid;
+}
 .figure-2 {
-    max-height: 275px;
-    max-width: 275px;
-    float: right;
+    
+    float:left;
+	width: 280px;
+height: 240px;
+left: 50px;
+top: 60px;
 }
 
   figure figcaption {
@@ -70,8 +100,8 @@ img {
 
 .container {
 	width: 94%;
-	margin: 0 auto;
-}
+	margin: 0 auto;}
+
 
 a {
 	text-decoration: none;	
@@ -86,10 +116,6 @@ a {
 	padding-bottom: 30px;
 	background-color: #5da05d;
 	
-}
-.cabecalho_logo_SUB{
-	background-color: #a0655d;
-	padding: 0.05px 0;
 }
 
 .cabecalhoPrincipal-titulo a {
@@ -117,3 +143,4 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+  }

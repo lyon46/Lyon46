@@ -1,35 +1,36 @@
 .cabecalho{
+    background-color:#F9C73E;
+    color:black;
+
     font-weight: bold;
     text-transform: uppercase;
 
-    display: grid;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 
-    padding-left: calc((100% - 960px) / 2);
-    padding-right: calc((100% - 960px) / 2);
-    background: #F9C73E;
+    padding-left: calc((100% - 980px) / 2);
+    padding-right: calc((100% - 980px) / 2);
+
 }
 
 .cabecalho_logo{
     padding: 1.5em 0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
     
 }
 
 .cabecalho_menu{
     display:flex;
 }
-.h1{
-    padding: 1.5em 0;
-}
 
 .cabecalho_menu-item a{
-    display: flex;
+    display:flex;
 
     padding: 1.5em 1.5em;
     font-size: 0.75em;
-    align-items:left;
-}
 }
 
 .cabecalho_menu-destaque{
